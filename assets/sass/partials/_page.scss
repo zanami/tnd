@@ -1,3 +1,35 @@
 //
 // Styles for individual pages
 // --------------------------------------------------
+
+#content {
+  background-color: #fff;
+}
+
+/**
+ * Basic CSS Treatement for Featured Element
+ */
+.node-featured .pane-node-title .pane-content a {
+  font-size: inherit;
+}
+
+.node-featured .pane-node-title .pane-content {
+  margin-bottom: 10px;
+}
+
+.node-featured .panel-display>div {
+  margin-bottom: 0; /* reset the bottom margins on layouts used for featuring content */
+}
+
+// Language selector stuff
+
+.language-homes {
+  font-weight: bold;
+  padding-right: 15px;
+  li a {
+    padding: 12px 3px;
+    .i18n-ru &#switchen,
+    .i18n-en &#switchru {font-weight: 300;}
+  }
+}
+

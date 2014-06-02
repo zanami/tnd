@@ -1,3 +1,12 @@
 //
 // Styles for Tabs, Messages, ..etc
 // --------------------------------------------------
+
+.meta {
+  color: $gray-light;
+  font-size: smaller;
+}
+
+.pad-right {margin-right: 15px;}
+
+.abbr {text-transform: uppercase;}

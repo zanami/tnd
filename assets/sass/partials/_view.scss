@@ -1,3 +1,90 @@
 //
 // Styles for Views
 // --------------------------------------------------
+
+// fix views admin labels
+.views-display-setting .label {
+  font-size: 1em;
+  padding: 0;
+  color: $gray;
+  background:none;
+  line-height: 20px;
+}
+
+// leaflet map control and copyright
+
+.leaflet-control-container {
+  .leaflet-control-attribution {
+//  .leaflet-control-zoom {
+    visibility: hidden;
+  }
+}
+
+.leaflet-popup-content a {
+  display: block;
+  padding:3px 0;
+  font-size: small;
+  line-height: 1;
+}
+
+// owl gallery
+
+.view-media-field-gallery {
+  .owl-item {
+    position:relative;
+    .caption {
+      font-size: smaller;
+      padding: 8px;
+      position: absolute;
+      bottom: 0;
+      height:100%;
+      width:100%;
+      overflow:hidden;
+      line-height:1;
+      text-shadow: 0px 0px 2px white;
+      
+      &:hover, &:focus {
+        background: rgba(255,255,255,0.5);
+        font-size: 100%;
+      }
+    }
+  }
+  
+}
+
+.view-content .views-row {margin-bottom: 15px; @extend .clearfix;}
+
+// views grid
+
+.views-grid-6 {
+  .views-row {
+    @extend .col-md-2;
+  }
+  .views-row-7,.views-row-14,.views-row-21 {clear:both;}
+  
+}
+
+.views-grid-4 {
+  .views-row {
+    @extend .col-md-3;
+    @extend .col-sm-6;
+  }
+  .views-row-5,.views-row-10,.views-row-15 {clear:both;}
+  
+}
+
+.views-grid-3 {
+  .views-row {
+    @extend .col-md-4;
+  }
+  .views-row-4,.views-row-8,.views-row-12, .views-row-16 {clear:both;}
+  
+}
+
+.views-grid-2 {
+  .views-row {
+    @extend .col-md-6;
+  }
+  .views-row-3,.views-row-6,.views-row-9, .views-row-12 {clear:both;}
+  
+}

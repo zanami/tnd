@@ -6,7 +6,6 @@ core        = 7.x
 ; Base - Radix
 base theme  = radix
 
-
 ; Regions
 regions[content] = Content
 
@@ -23,7 +22,8 @@ stylesheets-conditional[IE 7][all][] = assets/stylesheets/ie7.css
 stylesheets-conditional[IE 8][all][] = assets/stylesheets/ie8.css
 
 ; Javascript
-scripts[] = assets/javascripts/script.js
+scripts[] = assets/javascripts/bootstrap-hover-dropdown.min.js
+; scripts[] = assets/javascripts/leaflet-related.js
 
 ; Information added by Drupal.org packaging script on 2014-02-13
 version = "7.x-3.0-alpha2+4-dev"
