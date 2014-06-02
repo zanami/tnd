@@ -34,18 +34,21 @@
     position:relative;
     .caption {
       font-size: smaller;
-      padding: 8px;
+      padding: 20px;
+      padding-top: 120%;
       position: absolute;
       bottom: 0;
       height:100%;
       width:100%;
       overflow:hidden;
       line-height:1;
-      text-shadow: 0px 0px 2px white;
       
       &:hover, &:focus {
-        background: rgba(255,255,255,0.5);
-        font-size: 100%;
+        background: rgba(0,0,0,0.5);
+        font-size: 125%;
+        padding-top: 20px;
+        text-shadow: 0px 0px 1px #999;
+        color: #efefef;
       }
     }
   }

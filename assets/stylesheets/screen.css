@@ -11369,42 +11369,45 @@ label,
 /* line 35, ../sass/partials/_view.scss */
 .view-media-field-gallery .owl-item .caption {
   font-size: smaller;
-  padding: 8px;
+  padding: 20px;
+  padding-top: 120%;
   position: absolute;
   bottom: 0;
   height: 100%;
   width: 100%;
   overflow: hidden;
   line-height: 1;
-  text-shadow: 0px 0px 2px white;
 }
 /* line 46, ../sass/partials/_view.scss */
 .view-media-field-gallery .owl-item .caption:hover, .view-media-field-gallery .owl-item .caption:focus {
-  background: rgba(255, 255, 255, 0.5);
-  font-size: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 125%;
+  padding-top: 20px;
+  text-shadow: 0px 0px 1px #999;
+  color: #efefef;
 }
 
-/* line 55, ../sass/partials/_view.scss */
+/* line 58, ../sass/partials/_view.scss */
 .view-content .views-row {
   margin-bottom: 15px;
 }
 
-/* line 63, ../sass/partials/_view.scss */
+/* line 66, ../sass/partials/_view.scss */
 .views-grid-6 .views-row-7, .views-grid-6 .views-row-14, .views-grid-6 .views-row-21 {
   clear: both;
 }
 
-/* line 72, ../sass/partials/_view.scss */
+/* line 75, ../sass/partials/_view.scss */
 .views-grid-4 .views-row-5, .views-grid-4 .views-row-10, .views-grid-4 .views-row-15 {
   clear: both;
 }
 
-/* line 80, ../sass/partials/_view.scss */
+/* line 83, ../sass/partials/_view.scss */
 .views-grid-3 .views-row-4, .views-grid-3 .views-row-8, .views-grid-3 .views-row-12, .views-grid-3 .views-row-16 {
   clear: both;
 }
 
-/* line 88, ../sass/partials/_view.scss */
+/* line 91, ../sass/partials/_view.scss */
 .views-grid-2 .views-row-3, .views-grid-2 .views-row-6, .views-grid-2 .views-row-9, .views-grid-2 .views-row-12 {
   clear: both;
 }
