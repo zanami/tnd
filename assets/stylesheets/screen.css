@@ -11412,6 +11412,20 @@ label,
   clear: both;
 }
 
+/* line 97, ../sass/partials/_view.scss */
+.row, .container .view-content {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 103, ../sass/partials/_view.scss */
+.row .row, .container .row .row .view-content,
+.container .row .view-content .row,
+.container .row .view-content .view-content {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /**
 + * Reverting path
 + */

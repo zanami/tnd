@@ -91,3 +91,13 @@
   .views-row-3,.views-row-5, .views-row-7, .views-row-9, .views-row-11 , .views-row-13 {clear:both;}
   
 }
+
+// margins on nested rows
+
+.row, .container .view-content {
+  margin-left:-15px;margin-right:-15px;
+}
+
+.row .row, .container .row .row .view-content,
+.container .row .view-content .row,
+.container .row .view-content .view-content {margin-left:0;margin-right:0;}
