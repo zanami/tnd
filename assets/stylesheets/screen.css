@@ -11459,3 +11459,9 @@ label,
   max-width: 100%;
   height: auto;
 }
+
+/* line 19, ../sass/partials/_node.scss */
+.node-bsm-papers .panel-pane, .pane-node-field-paper {
+  padding-top: 0;
+  padding-top: 0;
+}
