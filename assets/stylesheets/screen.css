@@ -11266,7 +11266,12 @@ label,
   text-transform: uppercase;
 }
 
-/* line 5, ../sass/partials/_page.scss */
+/* line 6, ../sass/partials/_page.scss */
+body {
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 10, ../sass/partials/_page.scss */
 #content {
   background-color: #fff;
 }
@@ -11274,32 +11279,32 @@ label,
 /**
  * Basic CSS Treatement for Featured Element
  */
-/* line 12, ../sass/partials/_page.scss */
+/* line 17, ../sass/partials/_page.scss */
 .node-featured .pane-node-title .pane-content a {
   font-size: inherit;
 }
 
-/* line 16, ../sass/partials/_page.scss */
+/* line 21, ../sass/partials/_page.scss */
 .node-featured .pane-node-title .pane-content {
   margin-bottom: 10px;
 }
 
-/* line 20, ../sass/partials/_page.scss */
+/* line 25, ../sass/partials/_page.scss */
 .node-featured .panel-display > div {
   margin-bottom: 0;
   /* reset the bottom margins on layouts used for featuring content */
 }
 
-/* line 26, ../sass/partials/_page.scss */
+/* line 31, ../sass/partials/_page.scss */
 .language-homes {
   font-weight: bold;
   padding-right: 15px;
 }
-/* line 29, ../sass/partials/_page.scss */
+/* line 34, ../sass/partials/_page.scss */
 .language-homes li a {
   padding: 12px 3px;
 }
-/* line 32, ../sass/partials/_page.scss */
+/* line 37, ../sass/partials/_page.scss */
 .i18n-ru .language-homes li a#switchen, .i18n-en .language-homes li a#switchru {
   font-weight: 300;
 }

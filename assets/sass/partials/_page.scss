@@ -2,6 +2,11 @@
 // Styles for individual pages
 // --------------------------------------------------
 
+// fix font flickering on transitions 
+body {
+  -webkit-backface-visibility: hidden;
+}
+
 #content {
   background-color: #fff;
 }
