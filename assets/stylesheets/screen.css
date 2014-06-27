@@ -11334,8 +11334,8 @@ label,
 }
 
 /* line 34, ../sass/partials/_panel.scss */
-.node-teaser .panel-pane,
-.node-featured .panel-pane {
+.view-mode-featured .panel-pane,
+.view-mode-teaser .panel-pane {
   padding-top: 0;
   padding-bottom: 10px;
 }
@@ -11458,10 +11458,4 @@ label,
 .field-svg-image svg {
   max-width: 100%;
   height: auto;
-}
-
-/* line 19, ../sass/partials/_node.scss */
-.node-bsm-papers .panel-pane, .pane-node-field-paper {
-  padding-top: 0;
-  padding-bottom: 5px;
 }
