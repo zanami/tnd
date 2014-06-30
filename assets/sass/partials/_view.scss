@@ -55,7 +55,7 @@
   
 }
 
-.view-content .views-row {margin-bottom: 15px; @extend .clearfix;}
+.view-content .views-row {margin-bottom: 15px; position:relative; @extend .clearfix;}
 
 // views grid
 
