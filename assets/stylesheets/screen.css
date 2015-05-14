@@ -10867,7 +10867,7 @@ label,
 .front .views-row-first .node-bsm-project h5 {
   padding: 0 8px;
 }
-.front .views-row-first .node-bsm-project h5 a:link {
+.front .views-row-first .node-bsm-project h5 a:link, .front .views-row-first .node-bsm-project h5 a:visited {
   color: #222;
 }
 .front .views-row-first .node-bsm-project .meta {
