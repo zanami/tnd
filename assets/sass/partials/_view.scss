@@ -101,3 +101,29 @@
 .row .row, .container .row .row .view-content,
 .container .row .view-content .row,
 .container .row .view-content .view-content {margin-left:0;margin-right:0;}
+
+// front page first oject highlite
+
+.front .vies-row-first {
+  .node-bsm-project {
+    background: #cceecc;
+    // title
+    h5 {
+      padding: 0 8px;
+      a:link {color: #222;}
+    }
+    .meta {padding: 0 8px;}
+  }
+}
+
+// objects list
+
+.page-node-33 .vies-row-first {
+  .node-bsm-project {
+     // title
+    h4 {
+      font-size: 125%;
+      font-weight: bold;
+    }
+  }
+}
