@@ -16,4 +16,9 @@
       });
     }
   }
+  Drupal.behaviors.tnd_extlink = {
+    attach: function(context, setting) {
+       $('.menu-4642 a').each(function(){$(this).attr({ target: "_blank" });});
+    }
+  }
 })(jQuery, Drupal, this, this.document);
