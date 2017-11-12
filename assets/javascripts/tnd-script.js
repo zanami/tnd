@@ -10,6 +10,8 @@
         var panel = $(this).find('.in').prev('.panel-heading');
 //          var panel = $(this).find('.in');
 
+        $('[data-toggle="tooltip"]').tooltip();
+
         $('html, body').animate({
           scrollTop: panel.offset().top
         }, 300);
