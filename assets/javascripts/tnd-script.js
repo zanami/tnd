@@ -18,4 +18,15 @@
       });
     }
   }
+  Drupal.behaviors.tnd_extlink = {
+    attach: function(context, setting) {
+       $('.menu-4642 a').each(function(){$(this).attr({ target: "_blank" });});
+	$('[data-toggle="tooltip"]').tooltip()
+    }
+  }
+  Drupal.behaviors.tnd_tooltips = {
+    attach: function(context, setting) {
+       $('[data-tooltip="tooltip"]').tooltip()
+    }
+  }
 })(jQuery, Drupal, this, this.document);

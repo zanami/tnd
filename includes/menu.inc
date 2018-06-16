@@ -34,7 +34,9 @@ function tnd_menu_local_tasks($variables) {
 function tnd_menu_link($variables) {
   $element = $variables['element'];
   $sub_menu = '';
-
+  if (url_is_external($element['#href'])) {
+     $element['#localized_options']['attributes']['target'] = '_blank';
+  }
   if (!empty($element['#below'])) {
     // Wrap in dropdown-menu.
     unset($element['#below']['#theme_wrappers']);
