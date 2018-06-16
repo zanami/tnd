@@ -16,6 +16,7 @@ plugins[panels][styles] = panels/styles
 ; CSS - General
 stylesheets[all][]     = assets/stylesheets/screen.css
 stylesheets[print][]   = assets/stylesheets/print.css
+stylesheets[all][]     = assets/stylesheets/hacks.css
 
 ; CSS - Conditional
 stylesheets-conditional[IE 7][all][] = assets/stylesheets/ie7.css
