@@ -11662,9 +11662,6 @@ label,
   width: 100%;
   padding: 0 15px;
 }
-.header-container .navbar-collapse {
-  padding-right: 0;
-}
 .header-container #logoimg {
   display: none;
 }
@@ -11672,6 +11669,9 @@ label,
   .header-container {
     /* rules for mobile horizontal (> 480)  */
     padding-left: 100px;
+  }
+  .header-container .navbar-collapse {
+    padding-right: 0;
   }
   .header-container #logoimg {
     display: block !important;
