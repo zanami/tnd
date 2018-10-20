@@ -71,5 +71,5 @@ if (module_exists('search') && user_access('search content')) {
 
 
 function tnd_menu_tree__navbar_right(&$variables) {
-  return '<ul class="menu nav navbar-collapse navbar-nav navbar-right">' . $variables['tree'] . '</ul>';
+  return '<ul class="menu nav navbar-nav navbar-right">' . $variables['tree'] . '</ul>';
 }
