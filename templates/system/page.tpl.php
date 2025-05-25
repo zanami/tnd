@@ -23,7 +23,7 @@
             <span class="icon-bar"></span>
           </button>
           <a href="<?php print $front_page; ?>" title="<<?php print $site_name; ?>" rel="home" id="logo"
-            class="navbar-brand visible-lge visible-lg visible-xs">
+            class="navbar-brand">
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
           </a>
         </div> <!-- /.navbar-header -->

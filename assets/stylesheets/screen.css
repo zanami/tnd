@@ -11673,6 +11673,9 @@ label,
   .header-container {
     /* rules for mobile horizontal (> 768)  */
   }
+  .header-container #logo {
+    width: 254px;
+  }
 }
 .header-container .nav-pills {
   margin-bottom: 18px;

@@ -38,7 +38,9 @@
   }
   @media (min-width: $screen-sm-min) {
     /* rules for mobile horizontal (> 768)  */
-
+    #logo {
+      width: 254px;
+    }
   }
   .nav-pills {
     margin-bottom: 18px; margin-left: -15px;
