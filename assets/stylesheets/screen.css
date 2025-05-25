@@ -11668,13 +11668,16 @@ label,
     margin-left: -15px;
     margin-right: 15px;
   }
+  .header-container #logo {
+    width: 284px;
+  }
 }
 @media (min-width: 768px) {
   .header-container {
     /* rules for mobile horizontal (> 768)  */
   }
   .header-container #logo {
-    width: 254px;
+    width: 344px;
   }
 }
 .header-container .nav-pills {
