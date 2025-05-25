@@ -16,6 +16,9 @@
 }
 
 .header-container {
+    #logo {
+      width: 254px;
+    }
 
   .column {
     position: relative;
@@ -25,30 +28,17 @@
     width:100%;
     padding:0 15px;
   }
- 
-  #logoimg {display: none;}
-	
+ 	
   @media (min-width: $screen-xs-min) {
     /* rules for mobile horizontal (> 480)  */
-      padding-left: 100px;
 		  .navbar-collapse {padding-right: 0;}
 			.navbar-brand {margin-left:-15px; margin-right:15px;}
-      #logoimg {
-        display: block !important;
-        width: 100px;
-        right: 100px;
-        height:145px;
-        margin-left: -100%;
+      #logo {
       }
   }
   @media (min-width: $screen-sm-min) {
     /* rules for mobile horizontal (> 768)  */
-      padding-left: 160px;
-      #logoimg {
-        width: 160px;
-        right: 160px;
-        margin-left: -100%;
-      }
+
   }
   .nav-pills {
     margin-bottom: 18px; margin-left: -15px;

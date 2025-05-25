@@ -22,8 +22,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="<?php print $front_page; ?>" id="logo" class="navbar-brand visible-lge visible-lg visible-xs">
-            <?php print $site_name; ?>
+          <a href="<?php print $front_page; ?>" title="<<?php print $site_name; ?>" rel="home" id="logo"
+            class="navbar-brand visible-lge visible-lg visible-xs">
+              <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
           </a>
         </div> <!-- /.navbar-header -->
 
@@ -87,13 +88,7 @@
           </div>
         <?php endif; ?>
     </div> <!-- /.column -->
-    <?php if ($logo): ?>
-      <div id="logoimg" class="column">
-        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-        </a>
-      </div>
-    <?php endif; ?>
+
     <div class="clearfix"></div>
   </div>
 </header>
